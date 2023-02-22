@@ -1,8 +1,8 @@
-export interface cell {
-    coordinates: coordinates,
-    condition: condition,
-    apple: boolean
-}
+// export interface cell {
+//     coordinates: coordinates,
+//     condition: condition,
+//     apple: boolean
+// }
 
 export interface playingField {
     sizes: {
@@ -17,6 +17,6 @@ export interface partSnake {
     position: number
 }
 
-export type coordinates = {x: number, y: number}
+export type coordinates = { x: number, y: number }
 
 export type condition = "free" | "occupied";
